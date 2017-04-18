@@ -10,7 +10,7 @@
     android:id="@+id/mmlay"
     android:background="@color/popup"
 
-    tools:context="com.example.fadiqua.followmeup.AddNEWFollow">
+    tools:context=".AddFollow">
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
@@ -28,7 +28,7 @@
             android:text="Subject"
             android:ems="10"
             android:id="@+id/Subject"
-            android:textColor="@color/cardview_dark_background"/>
+            />
 
         <EditText
             android:layout_marginTop="20dp"
@@ -39,7 +39,7 @@
             android:ems="10"
             android:id="@+id/Details"
             android:layout_weight="0.22"
-            android:textColor="@color/cardview_dark_background"/>
+            />
 
         <LinearLayout
             android:orientation="horizontal"
@@ -70,34 +70,18 @@
                 android:onClick="timepicker" />
         </LinearLayout>
 
-        <CheckBox
-            android:layout_marginTop="40dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="task"
-            android:id="@+id/task"
-            android:textColor="@color/cardview_dark_background"/>
-
-        <CheckBox
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="SMS"
-            android:layout_marginTop="10dp"
-
-            android:id="@+id/SMS"
-            android:textColor="@color/cardview_dark_background"/>
-
 
         <android.support.v7.widget.AppCompatButton
             android:id="@+id/submit"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="12dp"
-            android:text="submit"
+            android:text="Submit"
             android:layout_margin="4dp"
-            android:layout_gravity="right"
+           android:paddingTop="20dp"
+            android:layout_gravity="center"
             android:background="@color/colorAccent"
-            android:onClick="addFollow" />
+             />
 
     </LinearLayout>
 
